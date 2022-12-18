@@ -48,15 +48,18 @@ As possible stretch goals, you may also implement data validation with Pydantic,
 
 ### Local Setup
 1. Create Virtual Environment
+   - This will vary depending on you system and choice of virtual environment.
+   - The recommended virtual environment is `venv`, this is built in to Python's standard library.
 2. Install Requirements & Environment Variables
+   - Run the following shell script `install.sh` or issue the commands manually.
+   - Create a `.env` file and copy and paste the following environment variable into the file.
+   - `FERNET_KEY=TUP5lxgpBU5Dvl5sMOpf2w0-2T8DhCIekAyho2Ob_5w=`
+   - You may need additional environment variables for connecting to your database.
 3. Start Local Server
+   - Run the following shell script `run.sh` or issue the command manually.
 
-### Environment Variables
-- Create a `.env` file and copy and paste the following environment variable into the file.
-  - `FERNET_KEY=TUP5lxgpBU5Dvl5sMOpf2w0-2T8DhCIekAyho2Ob_5w=`
-- You may need additional environment variables for connecting to your database.
-
-### Stretch Goals
-- Implement Data Validation with Pydantic
-- Refactor the API endpoints into routers
-- Implement Authentication for the API
+### Possible Stretch Goals
+- Implement a data validation layer with Pydantic. This will ensure that your users send valid data and give them information if they violate your schema.
+- Refactor the API endpoints into routers.
+- Implement Authentication for the API.
+- Take the project to the next level by incorporating your own ideas.
