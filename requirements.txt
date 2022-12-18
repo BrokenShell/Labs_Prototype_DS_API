@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+cryptography
+python-dotenv
+pymongo[srv]
+scikit-learn
