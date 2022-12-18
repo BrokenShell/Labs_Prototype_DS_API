@@ -23,18 +23,23 @@ As possible stretch goals, you may also implement data validation with Pydantic,
 
 ### Sprint 2 (Build I)
 - Database Component: Setting up the database and creating the necessary tables and schema.
+  - Signup for a MongoDB account or another database service. 
 - Generate Data: Collecting and generating data to be used in the machine learning model.
-- App Integration: Integrating the database component into the application, including any necessary API endpoint creation.
+  - This may require creating a new script for generating data.
+- App Integration: Integrating the database component into the application, 
+  - This may require adding or modifying API endpoints.
 
 ### Sprint 3 (Build II)
-- ML Model Component: Building and training the machine learning model on the collected data.
-- Serialize Model: Serializing the trained model, allowing it to be easily loaded and used for predictions.
-- App Integration: Integrating the machine learning model component into the application, including any necessary API endpoint creation.
+- Machine Learning Model Component: Build and train the machine learning model on the generated data.
+  - Make sure you are training the model on the datat in the database.
+- JobLib: Serialize the trained model, allowing it to be used for predictions in the cloud.
+- App Integration: Integrate the machine learning model component into the application.
+  - This may require adding or modifying API endpoints.
 
 ### Sprint 4 (Share)
-- Analysis: Analyzing the results of the machine learning model and making any necessary improvements.
-- Deployment: Deploying the machine learning API to a production environment.
-- Final Interview: Wrapping up the project with a final presentation or review.
+- Analyze: Validate the results of the machine learning model and making any necessary improvements.
+- Deploy: Register for an account at PythonAnywhere and deploy your machine learning API.
+- Defend: Wrap up the project with a final presentation.
 
 ---
 ### Required Components

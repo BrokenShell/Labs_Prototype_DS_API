@@ -50,13 +50,3 @@ async def update_record():
 @API.delete("/record")
 async def delete_record():
     return {}
-
-
-@API.post("/training")
-async def ml_training():
-    return {}
-
-
-@API.post("/prediction")
-async def ml_prediction():
-    return {}
