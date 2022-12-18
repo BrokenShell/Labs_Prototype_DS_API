@@ -1,5 +1,4 @@
 # Labs Prototype DS API
-
 This project is a prototype for a machine learning (ML) API built using the FastAPI framework. The goal of the project is to build key features for the API, including a database component and an ML model component. The suggested technology stack for this project includes FastAPI, MongoDB, and Scikit.
 
 The project will be completed in four sprints, each with its own set of tasks. During the first sprint (Setup), the team will set up their local development environment by installing necessary software and packages, and will hold a planning session to discuss and plan the project.

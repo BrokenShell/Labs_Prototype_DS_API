@@ -5,6 +5,7 @@ from app.database import Database
 from app.encryption import FernetCypher
 from app.machine import Model
 
+
 API = FastAPI(
     title="Labs Prototype DS API",
     version="0.0.1",
