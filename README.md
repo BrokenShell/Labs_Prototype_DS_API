@@ -36,9 +36,9 @@ As possible stretch goals, you may also implement data validation with Pydantic,
   - This may require adding or modifying API endpoints.
 
 ### Sprint 4 (Share)
-- Analyze: Validate the results of the machine learning model and making any necessary improvements.
-- Deploy: Register for an account at PythonAnywhere and deploy your machine learning API.
-- Explain: Wrap up the project with a final video presentation.
+- Validate the results of the machine learning model and making any necessary improvements.
+- Register for an account at PythonAnywhere and deploy your machine learning API.
+- Wrap up the project with a final video presentation.
 
 ---
 ### Required Components
