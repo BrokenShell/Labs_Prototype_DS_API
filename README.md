@@ -30,7 +30,7 @@ As possible stretch goals, you may also implement data validation with Pydantic,
 
 ### Sprint 3 (Build II)
 - Machine Learning Model Component: Build and train the machine learning model on the generated data.
-  - Make sure you are training the model on the datat in the database.
+  - Make sure you are training the model on the data in the database.
 - JobLib: Serialize the trained model, allowing it to be used for predictions in the cloud.
 - App Integration: Integrate the machine learning model component into the application.
   - This may require adding or modifying API endpoints.
