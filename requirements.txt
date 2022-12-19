@@ -1,6 +1,10 @@
-fastapi
-uvicorn[standard]
 cryptography
-python-dotenv
+fastapi
+joblib
+numpy
+pandas
 pymongo[srv]
+python-dotenv
 scikit-learn
+scipy
+uvicorn[standard]

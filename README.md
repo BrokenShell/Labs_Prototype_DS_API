@@ -7,7 +7,7 @@ In the second sprint (Build), the team will set up the database and create the n
 
 In the third sprint (Build), the team will build and train the ML model on the collected data, serialize the trained model to make it easier to load and use for predictions, and integrate the ML model component into the application, including creating any necessary API endpoints.
 
-In the fourth and final sprint (Share), the team will analyze the results of the ML model and make any necessary improvements, deploy the ML API to a production environment, and wrap up the project with a final presentation or review.
+In the fourth and final sprint (Share), the team will analyze the results of the ML model and make any necessary improvements, deploy the ML API to a production environment, and wrap up the project with a final Loom video presentation.
 
 The project will also have a few required components, including an application interface, an ML model, and a database interface. To set up your local environment, you will create a virtual environment, install the necessary requirements, and start the local server. Additionally, the project will use environment variables stored in a `.env` file. See below for details.
 
@@ -38,7 +38,7 @@ As possible stretch goals, you may also implement data validation with Pydantic,
 ### Sprint 4 (Share)
 - Analyze: Validate the results of the machine learning model and making any necessary improvements.
 - Deploy: Register for an account at PythonAnywhere and deploy your machine learning API.
-- Defend: Wrap up the project with a final presentation.
+- Explain: Wrap up the project with a final video presentation.
 
 ---
 ### Required Components
